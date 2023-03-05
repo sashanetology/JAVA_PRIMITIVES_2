@@ -5,7 +5,7 @@ public class Main {
         int topUp = 100; // пополнение
         int bonus; // бонус
 
-        if (topUp >= 1000) {
+        if (topUp > 1000) {
             bonus = topUp / 100;
             System.out.println("Вам начислено " + bonus + " бонус(а/ов)");
         } else {
